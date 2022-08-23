@@ -14,7 +14,7 @@ describe 'Mipoint Facade' do
     expect(geocode).to be_a(Hash)
     expect(geocode).to have_key(:lat)
     expect(geocode[:lat]).to be_a(Float)
-    expect(geocode).to have_key(:lng)
-    expect(geocode[:lng]).to be_a(Float)
+    expect(geocode).to have_key(:lon)
+    expect(geocode[:lon]).to be_a(Float)
   end
 end

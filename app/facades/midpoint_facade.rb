@@ -1,6 +1,6 @@
 class MidpointFacade
   def self.service
-    GoogleMapApiService.new
+    ApiService.new
   end
 
   def self.address_to_geocode(address)

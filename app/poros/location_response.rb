@@ -3,25 +3,22 @@ class LocationResponse
 
   attr_reader :id,
   :name,
-  :place_id,
   :address,
   :lat,
-  :lng,
-  :rating,
-  :image_url,
-  :price_level
+  :lng
 
-  def initialize(attr)
 
+  def initialize(attr, yelp_data)
+    binding.pry
     @id = @@instance_count += 1
     @name = attr[:name]
-    @place_id = attr[:place_id]
-    @address = attr[:vicinity]
-    @lat = attr[:geometry][:location][:lat]
-    @lng = attr[:geometry][:location][:lng]
-    @rating = attr[:rating].to_f if attr[:rating]
-    @image_url = attr[:photos].first[:photo_reference] if attr[:photos]
-    @price_level = attr[:price_level].to_i if attr[:price_level]
+    @yelp_id = yelp_data[:id]
+    @address = [attr[:place][:properties][:street], ", ", attr[:place][:properties][:city], ", ", attr[:place][:properties][:stateCode], ", ", attr[:place][:properties][:postalCode]].join
+    @lat = attr[:place][:geometry][:coordinates][1]
+    @lng = attr[:place][:geometry][:coordinates][0]
+    #@rating = attr[:rating].to_f if attr[:rating]
+    @image_url = yelp_data[:img_url]
+    #@price_level = attr[:price_level].to_i if attr[:price_level]
   end
 
 end

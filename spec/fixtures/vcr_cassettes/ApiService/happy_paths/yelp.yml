@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?latitude=39.74751&longitude=-104.940935&term=T-Rex%20Cafe
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Server:
+      - envoy
+      X-B3-Sampled:
+      - '0'
+      Ratelimit-Dailylimit:
+      - '5000'
+      Ratelimit-Remaining:
+      - '4972'
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-nlcll; site=public_api_v3
+      X-Zipkin-Id:
+      - fd8af90898ac2396
+      Ratelimit-Resettime:
+      - '2022-08-24T00:00:00+00:00'
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-91-109-useast1aprod
+      X-Extlb:
+      - 10-65-91-109-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Tue, 23 Aug 2022 23:10:21 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17850-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "4pzg3Y6pSJmNfxmw6Cj-UQ", "alias": "t-rex-grill-denver",
+        "name": "T Rex Grill", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/D76tWTwSxj-eyES641YOrA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/t-rex-grill-denver?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 3, "categories": [{"alias": "pizza", "title": "Pizza"}, {"alias":
+        "tradamerican", "title": "American (Traditional)"}, {"alias": "cafeteria",
+        "title": "Cafeteria"}], "rating": 2.0, "coordinates": {"latitude": 39.7475103,
+        "longitude": -104.9409349}, "transactions": [], "location": {"address1": "2001
+        Colorado Blvd", "address2": "", "address3": null, "city": "Denver", "zip_code":
+        "80205", "country": "US", "state": "CO", "display_address": ["2001 Colorado
+        Blvd", "Denver, CO 80205"]}, "phone": "", "display_phone": "", "distance":
+        185.39646120988616}, {"id": "VryvMiOjGlSTyR6EbopvMg", "alias": "the-district-denver-10",
+        "name": "The District", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/3Jo3_KbXFj1ohiTEQ2LBuw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/the-district-denver-10?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 500, "categories": [{"alias": "tradamerican", "title": "American
+        (Traditional)"}, {"alias": "breakfast_brunch", "title": "Breakfast & Brunch"},
+        {"alias": "newamerican", "title": "American (New)"}], "rating": 3.5, "coordinates":
+        {"latitude": 39.7429773002728, "longitude": -104.970145}, "transactions":
+        ["pickup", "delivery"], "price": "$$", "location": {"address1": "1320 E 17th
+        Ave", "address2": "", "address3": "", "city": "Denver", "zip_code": "80218",
+        "country": "US", "state": "CO", "display_address": ["1320 E 17th Ave", "Denver,
+        CO 80218"]}, "phone": "+13038136688", "display_phone": "(303) 813-6688", "distance":
+        2547.7224650079515}, {"id": "Ovrji3x2PMuY8G0rOcrrNA", "alias": "oak-at-fourteenth-boulder",
+        "name": "Oak at Fourteenth", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/GUrrjK2OUDOUqJ8mydglVw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/oak-at-fourteenth-boulder?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 691, "categories": [{"alias": "newamerican", "title": "American
+        (New)"}], "rating": 4.0, "coordinates": {"latitude": 40.01823, "longitude":
+        -105.27705}, "transactions": ["delivery"], "price": "$$", "location": {"address1":
+        "1400 Pearl St", "address2": "", "address3": "", "city": "Boulder", "zip_code":
+        "80302", "country": "US", "state": "CO", "display_address": ["1400 Pearl St",
+        "Boulder, CO 80302"]}, "phone": "+13034443622", "display_phone": "(303) 444-3622",
+        "distance": 41573.077243289736}, {"id": "2VVMlSS-OBqh06YXCVmN7Q", "alias":
+        "first-watch-northglenn-3", "name": "First Watch", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/KlOwMrorVZdJB3Y_gf2NGw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/first-watch-northglenn-3?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 518, "categories": [{"alias": "breakfast_brunch", "title":
+        "Breakfast & Brunch"}, {"alias": "cafes", "title": "Cafes"}, {"alias": "tradamerican",
+        "title": "American (Traditional)"}], "rating": 4.0, "coordinates": {"latitude":
+        39.913124, "longitude": -104.98752}, "transactions": ["delivery"], "price":
+        "$$", "location": {"address1": "100 E 120th Ave", "address2": "Unit G-140",
+        "address3": null, "city": "Northglenn", "zip_code": "80233", "country": "US",
+        "state": "CO", "display_address": ["100 E 120th Ave", "Unit G-140", "Northglenn,
+        CO 80233"]}, "phone": "+13039203447", "display_phone": "(303) 920-3447", "distance":
+        18840.161713896163}, {"id": "ATtXR7ef9dIdmFqahsbvmA", "alias": "the-old-mine-erie-3",
+        "name": "The Old Mine", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/9ATQsoKXH57pNotVAoLgcg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/the-old-mine-erie-3?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 185, "categories": [{"alias": "cideries", "title": "Cideries"},
+        {"alias": "brewpubs", "title": "Brewpubs"}, {"alias": "tradamerican", "title":
+        "American (Traditional)"}], "rating": 4.5, "coordinates": {"latitude": 40.049129,
+        "longitude": -105.047502}, "transactions": ["pickup"], "price": "$$", "location":
+        {"address1": "500 Briggs St", "address2": null, "address3": "", "city": "Erie",
+        "zip_code": "80516", "country": "US", "state": "CO", "display_address": ["500
+        Briggs St", "Erie, CO 80516"]}, "phone": "+13039050620", "display_phone":
+        "(303) 905-0620", "distance": 34748.70460505457}, {"id": "me5P0Mgj6UnvuQIhUQ9fLQ",
+        "alias": "snooze-an-a-m-eatery-lone-tree", "name": "Snooze, an A.M. Eatery",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/fGpKYsOLEo63IyYUiIp5Uw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/snooze-an-a-m-eatery-lone-tree?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 762, "categories": [{"alias": "breakfast_brunch", "title":
+        "Breakfast & Brunch"}, {"alias": "tradamerican", "title": "American (Traditional)"},
+        {"alias": "cocktailbars", "title": "Cocktail Bars"}], "rating": 4.0, "coordinates":
+        {"latitude": 39.53503, "longitude": -104.879079}, "transactions": ["delivery"],
+        "price": "$$", "location": {"address1": "10002 Commons St", "address2": "Ste
+        E1", "address3": "", "city": "Lone Tree", "zip_code": "80124", "country":
+        "US", "state": "CO", "display_address": ["10002 Commons St", "Ste E1", "Lone
+        Tree, CO 80124"]}, "phone": "+17205836819", "display_phone": "(720) 583-6819",
+        "distance": 24189.790468902724}], "total": 7, "region": {"center": {"longitude":
+        -104.940935, "latitude": 39.74751}}}'
+  recorded_at: Tue, 23 Aug 2022 23:10:21 GMT
+recorded_with: VCR 6.1.0

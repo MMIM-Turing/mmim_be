@@ -1,12 +1,17 @@
 class LocationFacade
   def self.service
-    GoogleMapApiService.new
+    ApiService.new
   end
 
   def self.get_near_by_locations(mid_coord, category)
-    location_results = service.nearbysearch("location=#{mid_coord}&q=#{category}&sort=distance&feedback=false")
-    x = location_results[:results].map do |location_result|
-      LocationResponse.new(location_result)
+    location_results = service.nearbysearch("location=#{mid_coord}&q=#{category}&sort=distance&feedback=false")[:results]
+    x = location_results.map do |location_result|
+      lat = location_result[:place][:geometry][:coordinates][1]
+      lon = location_result[:place][:geometry][:coordinates][0]
+      term = location_result[:name]
+      yelp_id = service.get_yelp_id(lat, lon, term)
+      yelp_data = service.get_yelp_data(yelp_id)
+      LocationResponse.new(location_result, yelp_data)
     end
     binding.pry
   end

@@ -1,6 +1,10 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'spec_helper'
 require 'simplecov'
+require 'faraday'
+require 'faraday/net_http'
+Faraday.default_adapter = :net_http
+
 SimpleCov.start
 
 ENV['RAILS_ENV'] ||= 'test'

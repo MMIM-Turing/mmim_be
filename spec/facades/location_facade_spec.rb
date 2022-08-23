@@ -13,6 +13,7 @@ describe 'Location Facade' do
 #    .to_return(status: 200, body: json_response, headers: {})
 
     location_results = LocationFacade.get_near_by_locations(mid_coord, "cafe")
+    binding.pry
     expect(location_results).to be_a(Array)
     expect(location_results.first).to be_a(LocationResponse)
   end

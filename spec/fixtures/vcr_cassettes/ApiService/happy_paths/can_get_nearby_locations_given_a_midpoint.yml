@@ -1,0 +1,130 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.mapquestapi.com/search/v4/place?key=zlaZeUWUwDjy5iwTqIH9n1ljM0ZSGs7o&location=39.7512038,-104.9447319&rankby=distance&type=cafe
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Tue, 23 Aug 2022 14:14:03 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '91'
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=0
+    body:
+      encoding: UTF-8
+      string: '{"error":"Parameter ''location'': -104.9447319 did not conform to the
+        range of [-90.0,90.0]"}'
+  recorded_at: Tue, 23 Aug 2022 14:14:03 GMT
+- request:
+    method: get
+    uri: https://www.mapquestapi.com/search/v4/place?key=zlaZeUWUwDjy5iwTqIH9n1ljM0ZSGs7o&location=-104.9447319,39.7512038&rankby=distance&type=cafe
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Tue, 23 Aug 2022 22:52:29 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '35'
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=0
+    body:
+      encoding: UTF-8
+      string: '{"error":"Missing parameter: sort"}'
+  recorded_at: Tue, 23 Aug 2022 22:52:29 GMT
+- request:
+    method: get
+    uri: https://www.mapquestapi.com/search/v4/place?feedback=false&key=zlaZeUWUwDjy5iwTqIH9n1ljM0ZSGs7o&location=-104.9447319,39.7512038&q=cafe&sort=distance
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 23 Aug 2022 22:54:21 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '4161'
+      Server:
+      - nginx
+      Vary:
+      - User-Agent
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+      Strict-Transport-Security:
+      - max-age=0
+    body:
+      encoding: UTF-8
+      string: '{"pagination":{"nextUrl":"https://www.mapquestapi.com/search/v4/place?q=cafe&location=-104.9447319,39.7512038&sort=distance&pageSize=10&page=2&key=zlaZeUWUwDjy5iwTqIH9n1ljM0ZSGs7o","currentPage":1},"request":{"sort":"distance","pageSize":10,"page":1,"feedback":false,"key":"zlaZeUWUwDjy5iwTqIH9n1ljM0ZSGs7o","q":"cafe","location":[-104.9447319,39.7512038]},"results":[{"id":"mqId:418993958","displayString":"Kresbah
+        Cafe, 2266 Colorado Blvd, Denver, CO 80207","name":"Kresbah Cafe","slug":"/us/colorado/kresbah-cafe-418993958","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.940404,39.750608],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80207","countryCode":"US","street":"2266
+        Colorado Blvd","type":"address"}}},{"id":"mqId:359994321","displayString":"T-Rex
+        Cafe, 2001 Colorado Blvd, Denver, CO 80205","name":"T-Rex Cafe","slug":"/us/colorado/t-rex-cafe-359994321","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.940935,39.74751],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80205","county":"Denver","countryCode":"US","street":"2001
+        Colorado Blvd","type":"address"}}},{"id":"mqId:416594070","displayString":"Corafaye''s
+        Cafe Soul Food, 2861 Colorado Blvd, Denver, CO 80207","name":"Corafaye''s
+        Cafe Soul Food","slug":"/us/colorado/corafayes-cafe-soul-food-416594070","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.940896,39.757528],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80207","county":"Denver","countryCode":"US","street":"2861
+        Colorado Blvd","type":"address"}}},{"id":"mqId:23646483","displayString":"Adagio
+        Baking Co, 4628 E 23rd Ave, Denver, CO 80207","name":"Adagio Baking Co","slug":"/us/colorado/adagio-baking-co-23646483","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.933542,39.750908],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80207","countryCode":"US","street":"4628
+        E 23rd Ave","type":"address"}}},{"id":"mqId:425234971","displayString":"Fox
+        Run Cafe, 3550 E Colfax Ave, Denver, CO 80206","name":"Fox Run Cafe","slug":"/us/colorado/fox-run-cafe-425234971","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.94549,39.74],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80206","county":"Denver","countryCode":"US","street":"3550
+        E Colfax Ave","type":"address"}}},{"id":"mqId:412307044","displayString":"Under
+        the Umbrella Cafe, 2900 E 16th Ave, Denver, CO 80206","name":"Under the Umbrella
+        Cafe","slug":"/us/colorado/under-the-umbrella-cafe-412307044","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.95265,39.74178],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80206","county":"Denver","countryCode":"US","street":"2900
+        E 16th Ave","type":"address"}}},{"id":"mqId:412748829","displayString":"Cafe
+        Star, 3201 E Colfax Ave, Denver, CO 80206","name":"Cafe Star","slug":"/us/colorado/cafe-star-412748829","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.94986,39.74037],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80206","county":"Denver","countryCode":"US","street":"3201
+        E Colfax Ave","type":"address"}}},{"id":"mqId:377160650","displayString":"Cafe
+        Miriam, 2217 E 21st Ave, Denver, CO 80205","name":"Cafe Miriam","slug":"/us/colorado/cafe-miriam-377160650","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.96028,39.74834],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80205","county":"Denver","countryCode":"US","street":"2217
+        E 21st Ave","type":"address"}}},{"id":"mqId:376084149","displayString":"Route
+        40 Cafe, 2550 E Colfax Ave, Denver, CO 80206","name":"Route 40 Cafe","slug":"/us/colorado/route-40-cafe-376084149","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.956478,39.739827],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80206","county":"Denver","countryCode":"US","street":"2550
+        E Colfax Ave","type":"address"}}}]}'
+  recorded_at: Tue, 23 Aug 2022 22:54:21 GMT
+recorded_with: VCR 6.1.0
