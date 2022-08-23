@@ -6,7 +6,7 @@ describe 'Location Facade' do
 #    stub_request(:get, "https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=#{ENV['google_api_key']}&location=39.7512038%2C-104.9447319&type=cafe&rankby=distance")
 #    .to_return(status: 200, body: json_response)
 
-    mid_coord = "39.7512038%2C-104.9447319"
+    mid_coord = "-104.9504002621875%2C39.74924215"
   #  attributes = "location=#{mid_coord}&type=cafe&rankby=distance"
   #  json_response = File.read('spec/fixtures/nearbysearch.json')
 #    stub_request(:get, "https://maps.googleapis.com/maps/api/place/nearbysearch/json?#{attributes}&key=#{ENV['google_api_key']}")

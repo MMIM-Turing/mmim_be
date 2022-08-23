@@ -1,8 +1,10 @@
 class GoogleMapApiService
   def conn
-    Faraday.new(url: 'https://maps.googleapis.com/maps/api') do |faraday|
-    faraday.params['key'] = ENV['google_api_key']
-    end
+    Faraday.new(url: 'https://www.mapquestapi.com')
+  end
+
+  def geo_conn
+    Faraday.new(url: 'https://nominatim.openstreetmap.org')
   end
 
   def parse_json(response)
@@ -10,12 +12,13 @@ class GoogleMapApiService
   end
 
   def address_to_geocode(address)
-    response = conn.get("geocode/json?address=#{address}")
-    parse_json(response)
+    add = address.delete(',').split.map {|w| w + "+" }.join[0...-1]
+    response = geo_conn.get("search?q=#{add}&format=json")
+    parse_json(response)[0]
   end
 
   def nearbysearch(attributes)
-    response = conn.get("place/nearbysearch/json?#{attributes}")
+    response = conn.get("search/v4/place?#{attributes}&key=#{ENV['mapquest_api_key']}")
     parse_json(response)
   end
 end
