@@ -2,11 +2,12 @@ class LocationSerializer
   include JSONAPI::Serializer
   attributes :id,
              :name,
-             :place_id,
              :address,
-             :lat,
-             :lng,
+             :url,
              :rating,
-             :image_url,
-             :price_level
+             :photos,
+             :categories,
+             :review_count,
+             :price,
+             :is_open_now
 end

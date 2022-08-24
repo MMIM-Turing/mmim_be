@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 23 Aug 2022 23:49:57 GMT
+      - Wed, 24 Aug 2022 17:22:25 GMT
       Content-Type:
       - application/json
       Content-Length:
@@ -61,7 +61,7 @@ http_interactions:
         Colorado Blvd","type":"address"}}},{"id":"mqId:401261675","displayString":"Bar
         Max, 2412 E Colfax Ave, Denver, CO 80206","name":"Bar Max","slug":"/us/colorado/bar-max-401261675","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.95835,39.73991],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80206","county":"Denver","countryCode":"US","street":"2412
         E Colfax Ave","type":"address"}}}]}'
-  recorded_at: Tue, 23 Aug 2022 23:49:57 GMT
+  recorded_at: Wed, 24 Aug 2022 17:22:25 GMT
 - request:
     method: get
     uri: https://api.yelp.com/v3/businesses/search?latitude=39.74751&limit=1&longitude=-104.940935&term=T-Rex%20Cafe
@@ -87,37 +87,37 @@ http_interactions:
       Content-Type:
       - application/json
       Ratelimit-Resettime:
-      - '2022-08-24T00:00:00+00:00'
-      Server:
-      - envoy
-      X-Routing-Service:
-      - routing-main--useast1-54445cf4f-2nlpg; site=public_api_v3
+      - '2022-08-25T00:00:00+00:00'
+      X-Zipkin-Id:
+      - '0899a9b561e2a141'
       X-B3-Sampled:
       - '0'
       Ratelimit-Dailylimit:
       - '5000'
-      X-Zipkin-Id:
-      - 900092b3aa348127
+      Server:
+      - envoy
       Ratelimit-Remaining:
-      - '4964'
+      - '4962'
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-5t8ns; site=public_api_v3
       X-Cloudmap:
       - routing_useast1
       X-Mode:
       - ro
       X-Proxied:
-      - 10-65-164-1-useast1bprod
+      - 10-65-85-173-useast1aprod
       X-Extlb:
-      - 10-65-164-1-useast1bprod
+      - 10-65-85-173-useast1aprod
       Cache-Control:
       - max-age=0, no-store, private, no-transform
       Accept-Ranges:
       - bytes
       Date:
-      - Tue, 23 Aug 2022 23:49:58 GMT
+      - Wed, 24 Aug 2022 17:22:25 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-pdk17844-PDK
+      - cache-mia11335-MIA
       X-Cache:
       - MISS
       X-Cache-Hits:
@@ -140,7 +140,7 @@ http_interactions:
         Blvd", "Denver, CO 80205"]}, "phone": "", "display_phone": "", "distance":
         185.39646120988616}], "total": 3, "region": {"center": {"longitude": -104.940935,
         "latitude": 39.74751}}}'
-  recorded_at: Tue, 23 Aug 2022 23:49:58 GMT
+  recorded_at: Wed, 24 Aug 2022 17:22:25 GMT
 - request:
     method: get
     uri: https://api.yelp.com/v3/businesses/4pzg3Y6pSJmNfxmw6Cj-UQ
@@ -165,38 +165,38 @@ http_interactions:
       - keep-alive
       Content-Type:
       - application/json
-      X-Zipkin-Id:
-      - ac6a182586675aa5
-      Ratelimit-Dailylimit:
-      - '5000'
-      Ratelimit-Remaining:
-      - '4963'
-      X-B3-Sampled:
-      - '0'
       Ratelimit-Resettime:
-      - '2022-08-24T00:00:00+00:00'
+      - '2022-08-25T00:00:00+00:00'
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-85zs2; site=public_api_v3
       Server:
       - envoy
-      X-Routing-Service:
-      - routing-main--useast1-54445cf4f-xgq75; site=public_api_v3
+      Ratelimit-Dailylimit:
+      - '5000'
+      X-B3-Sampled:
+      - '0'
+      Ratelimit-Remaining:
+      - '4961'
+      X-Zipkin-Id:
+      - 0b8d7568e11f052e
       X-Cloudmap:
       - routing_useast1
       X-Mode:
       - ro
       X-Proxied:
-      - 10-65-103-189-useast1aprod
+      - 10-65-133-10-useast1bprod
       X-Extlb:
-      - 10-65-103-189-useast1aprod
+      - 10-65-133-10-useast1bprod
       Cache-Control:
       - max-age=0, no-store, private, no-transform
       Accept-Ranges:
       - bytes
       Date:
-      - Tue, 23 Aug 2022 23:49:58 GMT
+      - Wed, 24 Aug 2022 17:22:26 GMT
       Via:
       - 1.1 varnish
       X-Served-By:
-      - cache-pdk17876-PDK
+      - cache-mia11376-MIA
       X-Cache:
       - MISS
       X-Cache-Hits:
@@ -224,7 +224,242 @@ http_interactions:
         false, "start": "0900", "end": "1700", "day": 3}, {"is_overnight": false,
         "start": "0900", "end": "1700", "day": 4}, {"is_overnight": false, "start":
         "0900", "end": "1700", "day": 5}, {"is_overnight": false, "start": "0900",
-        "end": "1700", "day": 6}], "hours_type": "REGULAR", "is_open_now": false}],
+        "end": "1700", "day": 6}], "hours_type": "REGULAR", "is_open_now": true}],
         "transactions": []}'
-  recorded_at: Tue, 23 Aug 2022 23:49:58 GMT
+  recorded_at: Wed, 24 Aug 2022 17:22:26 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?latitude=39.74178&limit=1&longitude=-104.95265&term=Under%20the%20Umbrella%20Cafe
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Remaining:
+      - '4960'
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-krxfs; site=public_api_v3
+      X-B3-Sampled:
+      - '0'
+      X-Zipkin-Id:
+      - afec2e587b828f6e
+      Server:
+      - envoy
+      Ratelimit-Dailylimit:
+      - '5000'
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-73-48-useast1aprod
+      X-Extlb:
+      - 10-65-73-48-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:22:26 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-mia11331-MIA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "aYZQk64S28M9GSahf_TIqQ", "alias": "under-the-umbrella-cafe-denver-2",
+        "name": "Under The Umbrella Cafe", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/cgaevjFQLW8EVIhIYy-Kfg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/under-the-umbrella-cafe-denver-2?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 184, "categories": [{"alias": "coffee", "title": "Coffee &
+        Tea"}, {"alias": "bakeries", "title": "Bakeries"}, {"alias": "breakfast_brunch",
+        "title": "Breakfast & Brunch"}], "rating": 4.0, "coordinates": {"latitude":
+        39.735276, "longitude": -104.9458731}, "transactions": ["delivery", "pickup"],
+        "price": "$", "location": {"address1": "3507 E 12th Ave", "address2": "",
+        "address3": null, "city": "Denver", "zip_code": "80206", "country": "US",
+        "state": "CO", "display_address": ["3507 E 12th Ave", "Denver, CO 80206"]},
+        "phone": "+13032560797", "display_phone": "(303) 256-0797", "distance": 926.7201482895981}],
+        "total": 83, "region": {"center": {"longitude": -104.95265, "latitude": 39.74178}}}'
+  recorded_at: Wed, 24 Aug 2022 17:22:26 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/aYZQk64S28M9GSahf_TIqQ
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Zipkin-Id:
+      - 472fac253bd07a87
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-krxfs; site=public_api_v3
+      Ratelimit-Dailylimit:
+      - '5000'
+      Ratelimit-Remaining:
+      - '4959'
+      Server:
+      - envoy
+      X-B3-Sampled:
+      - '0'
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-103-189-useast1aprod
+      X-Extlb:
+      - 10-65-103-189-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:22:27 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-mia11336-MIA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id": "aYZQk64S28M9GSahf_TIqQ", "alias": "under-the-umbrella-cafe-denver-2",
+        "name": "Under The Umbrella Cafe", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/cgaevjFQLW8EVIhIYy-Kfg/o.jpg",
+        "is_claimed": true, "is_closed": false, "url": "https://www.yelp.com/biz/under-the-umbrella-cafe-denver-2?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=34C0zepaqieGLijQXveHVQ",
+        "phone": "+13032560797", "display_phone": "(303) 256-0797", "review_count":
+        184, "categories": [{"alias": "coffee", "title": "Coffee & Tea"}, {"alias":
+        "bakeries", "title": "Bakeries"}, {"alias": "breakfast_brunch", "title": "Breakfast
+        & Brunch"}], "rating": 4.0, "location": {"address1": "3507 E 12th Ave", "address2":
+        "", "address3": null, "city": "Denver", "zip_code": "80206", "country": "US",
+        "state": "CO", "display_address": ["3507 E 12th Ave", "Denver, CO 80206"],
+        "cross_streets": ""}, "coordinates": {"latitude": 39.735276, "longitude":
+        -104.9458731}, "photos": ["https://s3-media3.fl.yelpcdn.com/bphoto/cgaevjFQLW8EVIhIYy-Kfg/o.jpg",
+        "https://s3-media2.fl.yelpcdn.com/bphoto/5Zs3bLINcAoXkYM-5zJNMw/o.jpg", "https://s3-media2.fl.yelpcdn.com/bphoto/13a35q9lIGTJHNaS88oJuw/o.jpg"],
+        "price": "$", "hours": [{"open": [{"is_overnight": false, "start": "0730",
+        "end": "1500", "day": 0}, {"is_overnight": false, "start": "0730", "end":
+        "1500", "day": 1}, {"is_overnight": false, "start": "0730", "end": "1500",
+        "day": 2}, {"is_overnight": false, "start": "0730", "end": "1500", "day":
+        3}, {"is_overnight": false, "start": "0730", "end": "1500", "day": 4}, {"is_overnight":
+        false, "start": "0730", "end": "1500", "day": 5}, {"is_overnight": false,
+        "start": "0730", "end": "1500", "day": 6}], "hours_type": "REGULAR", "is_open_now":
+        true}], "transactions": ["delivery", "pickup"]}'
+  recorded_at: Wed, 24 Aug 2022 17:22:27 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?latitude=39.750608&limit=1&longitude=-104.940404&term=Kresbah%20Cafe
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-B3-Sampled:
+      - '0'
+      X-Zipkin-Id:
+      - eea3650c98349625
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-lm65s; site=public_api_v3
+      Ratelimit-Dailylimit:
+      - '5000'
+      Ratelimit-Remaining:
+      - '4958'
+      Server:
+      - envoy
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-190-140-useast1bprod
+      X-Extlb:
+      - 10-65-190-140-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:22:27 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-mia11370-MIA
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [], "total": 0, "region": {"center": {"longitude": -104.940404,
+        "latitude": 39.750608}}}'
+  recorded_at: Wed, 24 Aug 2022 17:22:27 GMT
 recorded_with: VCR 6.1.0

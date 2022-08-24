@@ -1,0 +1,121 @@
+{
+    "data": [
+        {
+            "id": "3",
+            "type": "location",
+            "attributes": {
+                "id": 3,
+                "name": "Rhein Haus",
+                "address": "1415 Market StDenver, CO 80202",
+                "url": "https://www.yelp.com/biz/rhein-haus-denver-2?adjust_creative=34C0zepaqieGLijQXveHVQ\u0026utm_campaign=yelp_api_v3\u0026utm_medium=api_v3_business_lookup\u0026utm_source=34C0zepaqieGLijQXveHVQ",
+                "rating": null,
+                "photos": [
+                    "https://s3-media1.fl.yelpcdn.com/bphoto/ofwKsGNSSkXR1t_B0-W0mQ/o.jpg",
+                    "https://s3-media2.fl.yelpcdn.com/bphoto/RR5DkQLv5_ocW3I2WcVMdA/o.jpg",
+                    "https://s3-media4.fl.yelpcdn.com/bphoto/9aERg7kr_BZTtfDjjjOS_A/o.jpg"
+                ],
+                "categories": [
+                    "Bars",
+                    "German",
+                    "Pretzels"
+                ],
+                "review_count": 489,
+                "price": "$$",
+                "is_open_now": false
+            }
+        },
+        {
+            "id": "4",
+            "type": "location",
+            "attributes": {
+                "id": 4,
+                "name": "Tuscany Coffee \u0026 Deli",
+                "address": "1700 Lincoln StDenver, CO 80203",
+                "url": "https://www.yelp.com/biz/tuscany-coffee-and-deli-denver?adjust_creative=34C0zepaqieGLijQXveHVQ\u0026utm_campaign=yelp_api_v3\u0026utm_medium=api_v3_business_lookup\u0026utm_source=34C0zepaqieGLijQXveHVQ",
+                "rating": null,
+                "photos": [
+                    "https://s3-media4.fl.yelpcdn.com/bphoto/AOJJ6pnNPpZoBoJCDGwTzg/o.jpg",
+                    "https://s3-media2.fl.yelpcdn.com/bphoto/v3lgaaW_hjosCbPNpHNilg/o.jpg",
+                    "https://s3-media4.fl.yelpcdn.com/bphoto/c86HVmAmL1Mp4Rmr3nhbhg/o.jpg"
+                ],
+                "categories": [
+                    "Coffee \u0026 Tea",
+                    "Breakfast \u0026 Brunch",
+                    "Delis"
+                ],
+                "review_count": 40,
+                "price": "$$",
+                "is_open_now": true
+            }
+        },
+        {
+            "id": "5",
+            "type": "location",
+            "attributes": {
+                "id": 5,
+                "name": "Woody Creek Bakery \u0026 Cafe",
+                "address": "1001 16th StSte A 130Denver, CO 80265",
+                "url": "https://www.yelp.com/biz/woody-creek-bakery-and-cafe-denver-2?adjust_creative=34C0zepaqieGLijQXveHVQ\u0026utm_campaign=yelp_api_v3\u0026utm_medium=api_v3_business_lookup\u0026utm_source=34C0zepaqieGLijQXveHVQ",
+                "rating": null,
+                "photos": [
+                    "https://s3-media4.fl.yelpcdn.com/bphoto/gLqVAjAEY-hHVa6KsVrWaA/o.jpg",
+                    "https://s3-media1.fl.yelpcdn.com/bphoto/ql-fTnQ5oD_pvJtQFbxHNQ/o.jpg",
+                    "https://s3-media1.fl.yelpcdn.com/bphoto/EKhQoHd4iAoDygABft6xnw/o.jpg"
+                ],
+                "categories": [
+                    "American (Traditional)",
+                    "Bakeries"
+                ],
+                "review_count": 31,
+                "price": "$",
+                "is_open_now": null
+            }
+        },
+        {
+            "id": "6",
+            "type": "location",
+            "attributes": {
+                "id": 6,
+                "name": "Caribou Coffee",
+                "address": "951 16th Street MallDenver, CO 80202",
+                "url": "https://www.yelp.com/biz/caribou-coffee-denver-9?adjust_creative=34C0zepaqieGLijQXveHVQ\u0026utm_campaign=yelp_api_v3\u0026utm_medium=api_v3_business_lookup\u0026utm_source=34C0zepaqieGLijQXveHVQ",
+                "rating": null,
+                "photos": [
+                    "https://s3-media1.fl.yelpcdn.com/bphoto/gnMPlbH8060p2to528XrNQ/o.jpg",
+                    "https://s3-media1.fl.yelpcdn.com/bphoto/YGahLRZVhcI3r9N_15iTyA/o.jpg",
+                    "https://s3-media1.fl.yelpcdn.com/bphoto/PDQltZ0EYSVAOquISQNk6A/o.jpg"
+                ],
+                "categories": [
+                    "Coffee \u0026 Tea"
+                ],
+                "review_count": 82,
+                "price": "$$",
+                "is_open_now": true
+            }
+        },
+        {
+            "id": "7",
+            "type": "location",
+            "attributes": {
+                "id": 7,
+                "name": "Tea Cloud",
+                "address": "1690 Champa StDenver, CO 80202",
+                "url": "https://www.yelp.com/biz/tea-cloud-denver?adjust_creative=34C0zepaqieGLijQXveHVQ\u0026utm_campaign=yelp_api_v3\u0026utm_medium=api_v3_business_lookup\u0026utm_source=34C0zepaqieGLijQXveHVQ",
+                "rating": null,
+                "photos": [
+                    "https://s3-media4.fl.yelpcdn.com/bphoto/xtKfpf33JXM9e43rnBaOfA/o.jpg",
+                    "https://s3-media2.fl.yelpcdn.com/bphoto/otPNpV2K5vhSHyuJkSY1Gw/o.jpg",
+                    "https://s3-media3.fl.yelpcdn.com/bphoto/C8c1tdTLtwPkOZeRIpxdmA/o.jpg"
+                ],
+                "categories": [
+                    "Bubble Tea",
+                    "Tea Rooms",
+                    "Poke"
+                ],
+                "review_count": 290,
+                "price": "$$",
+                "is_open_now": true
+            }
+        }
+    ]
+}

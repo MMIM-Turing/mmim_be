@@ -2343,4 +2343,1784 @@ http_interactions:
         318-9843", "distance": 1274.0102132769946}], "total": 1300, "region": {"center":
         {"longitude": -104.991238, "latitude": 39.746885}}}'
   recorded_at: Tue, 23 Aug 2022 22:50:24 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?latitude=39.74634&limit=1&longitude=-104.993865&term=Cafe%20Berlin
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-B3-Sampled:
+      - '0'
+      X-Zipkin-Id:
+      - b543018df435d520
+      Server:
+      - envoy
+      Ratelimit-Dailylimit:
+      - '5000'
+      Ratelimit-Remaining:
+      - '4991'
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-krxfs; site=public_api_v3
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-190-140-useast1bprod
+      X-Extlb:
+      - 10-65-190-140-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:04:58 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17854-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "swPiklhuXaMLnw5Rh2y7Ew", "alias": "rhein-haus-denver-2",
+        "name": "Rhein Haus", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ofwKsGNSSkXR1t_B0-W0mQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/rhein-haus-denver-2?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 489, "categories": [{"alias": "bars", "title": "Bars"}, {"alias":
+        "german", "title": "German"}, {"alias": "pretzels", "title": "Pretzels"}],
+        "rating": 4.0, "coordinates": {"latitude": 39.74835474, "longitude": -105.00058487},
+        "transactions": ["pickup", "delivery"], "price": "$$", "location": {"address1":
+        "1415 Market St", "address2": null, "address3": null, "city": "Denver", "zip_code":
+        "80202", "country": "US", "state": "CO", "display_address": ["1415 Market
+        St", "Denver, CO 80202"]}, "phone": "+13038002652", "display_phone": "(303)
+        800-2652", "distance": 616.6464435238564}], "total": 2, "region": {"center":
+        {"longitude": -104.993865, "latitude": 39.74634}}}'
+  recorded_at: Wed, 24 Aug 2022 17:04:58 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/swPiklhuXaMLnw5Rh2y7Ew
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-qw9nh; site=public_api_v3
+      X-B3-Sampled:
+      - '0'
+      Server:
+      - envoy
+      Ratelimit-Dailylimit:
+      - '5000'
+      Ratelimit-Remaining:
+      - '4990'
+      X-Zipkin-Id:
+      - 78bac9bbde853c12
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-190-140-useast1bprod
+      X-Extlb:
+      - 10-65-190-140-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:04:59 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17821-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id": "swPiklhuXaMLnw5Rh2y7Ew", "alias": "rhein-haus-denver-2", "name":
+        "Rhein Haus", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/ofwKsGNSSkXR1t_B0-W0mQ/o.jpg",
+        "is_claimed": true, "is_closed": false, "url": "https://www.yelp.com/biz/rhein-haus-denver-2?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=34C0zepaqieGLijQXveHVQ",
+        "phone": "+13038002652", "display_phone": "(303) 800-2652", "review_count":
+        489, "categories": [{"alias": "bars", "title": "Bars"}, {"alias": "german",
+        "title": "German"}, {"alias": "pretzels", "title": "Pretzels"}], "rating":
+        4.0, "location": {"address1": "1415 Market St", "address2": null, "address3":
+        null, "city": "Denver", "zip_code": "80202", "country": "US", "state": "CO",
+        "display_address": ["1415 Market St", "Denver, CO 80202"], "cross_streets":
+        ""}, "coordinates": {"latitude": 39.74835474, "longitude": -105.00058487},
+        "photos": ["https://s3-media1.fl.yelpcdn.com/bphoto/ofwKsGNSSkXR1t_B0-W0mQ/o.jpg",
+        "https://s3-media2.fl.yelpcdn.com/bphoto/RR5DkQLv5_ocW3I2WcVMdA/o.jpg", "https://s3-media4.fl.yelpcdn.com/bphoto/9aERg7kr_BZTtfDjjjOS_A/o.jpg"],
+        "price": "$$", "hours": [{"open": [{"is_overnight": false, "start": "1500",
+        "end": "2300", "day": 0}, {"is_overnight": false, "start": "1500", "end":
+        "2300", "day": 1}, {"is_overnight": false, "start": "1500", "end": "2300",
+        "day": 2}, {"is_overnight": false, "start": "1500", "end": "2300", "day":
+        3}, {"is_overnight": true, "start": "1500", "end": "0100", "day": 4}, {"is_overnight":
+        true, "start": "1000", "end": "0100", "day": 5}, {"is_overnight": false, "start":
+        "1000", "end": "2200", "day": 6}], "hours_type": "REGULAR", "is_open_now":
+        false}], "transactions": ["delivery", "pickup"]}'
+  recorded_at: Wed, 24 Aug 2022 17:04:59 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?%2BDeli&latitude=39.745828&limit=1&longitude=-104.992566&term=Tuscany%20Coffee%20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Dailylimit:
+      - '5000'
+      Ratelimit-Remaining:
+      - '4988'
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-B3-Sampled:
+      - '0'
+      X-Zipkin-Id:
+      - 9214496cd7c7a671
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-ffkvm; site=public_api_v3
+      Server:
+      - envoy
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-190-140-useast1bprod
+      X-Extlb:
+      - 10-65-190-140-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:38 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17851-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "g2xJeN5tlHFGEhrZ8fKHAQ", "alias": "tuscany-coffee-and-deli-denver",
+        "name": "Tuscany Coffee & Deli", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/AOJJ6pnNPpZoBoJCDGwTzg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/tuscany-coffee-and-deli-denver?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 40, "categories": [{"alias": "coffee", "title": "Coffee &
+        Tea"}, {"alias": "breakfast_brunch", "title": "Breakfast & Brunch"}, {"alias":
+        "delis", "title": "Delis"}], "rating": 4.0, "coordinates": {"latitude": 39.74366,
+        "longitude": -104.98537}, "transactions": ["pickup", "delivery"], "price":
+        "$$", "location": {"address1": "1700 Lincoln St", "address2": "", "address3":
+        "", "city": "Denver", "zip_code": "80203", "country": "US", "state": "CO",
+        "display_address": ["1700 Lincoln St", "Denver, CO 80203"]}, "phone": "+13038614544",
+        "display_phone": "(303) 861-4544", "distance": 653.098385501969}], "total":
+        40, "region": {"center": {"longitude": -104.992566, "latitude": 39.745828}}}'
+  recorded_at: Wed, 24 Aug 2022 17:05:39 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/g2xJeN5tlHFGEhrZ8fKHAQ
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-B3-Sampled:
+      - '0'
+      Ratelimit-Dailylimit:
+      - '5000'
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-9k7nc; site=public_api_v3
+      Ratelimit-Remaining:
+      - '4987'
+      Server:
+      - envoy
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-Zipkin-Id:
+      - 68806206659c8d35
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-164-1-useast1bprod
+      X-Extlb:
+      - 10-65-164-1-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:39 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17836-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id": "g2xJeN5tlHFGEhrZ8fKHAQ", "alias": "tuscany-coffee-and-deli-denver",
+        "name": "Tuscany Coffee & Deli", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/AOJJ6pnNPpZoBoJCDGwTzg/o.jpg",
+        "is_claimed": true, "is_closed": false, "url": "https://www.yelp.com/biz/tuscany-coffee-and-deli-denver?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=34C0zepaqieGLijQXveHVQ",
+        "phone": "+13038614544", "display_phone": "(303) 861-4544", "review_count":
+        40, "categories": [{"alias": "coffee", "title": "Coffee & Tea"}, {"alias":
+        "breakfast_brunch", "title": "Breakfast & Brunch"}, {"alias": "delis", "title":
+        "Delis"}], "rating": 4.0, "location": {"address1": "1700 Lincoln St", "address2":
+        "", "address3": "", "city": "Denver", "zip_code": "80203", "country": "US",
+        "state": "CO", "display_address": ["1700 Lincoln St", "Denver, CO 80203"],
+        "cross_streets": ""}, "coordinates": {"latitude": 39.74366, "longitude": -104.98537},
+        "photos": ["https://s3-media4.fl.yelpcdn.com/bphoto/AOJJ6pnNPpZoBoJCDGwTzg/o.jpg",
+        "https://s3-media2.fl.yelpcdn.com/bphoto/v3lgaaW_hjosCbPNpHNilg/o.jpg", "https://s3-media4.fl.yelpcdn.com/bphoto/c86HVmAmL1Mp4Rmr3nhbhg/o.jpg"],
+        "price": "$$", "hours": [{"open": [{"is_overnight": false, "start": "0600",
+        "end": "1400", "day": 0}, {"is_overnight": false, "start": "0600", "end":
+        "1400", "day": 1}, {"is_overnight": false, "start": "0600", "end": "1400",
+        "day": 2}, {"is_overnight": false, "start": "0600", "end": "1400", "day":
+        3}, {"is_overnight": false, "start": "0600", "end": "1400", "day": 4}], "hours_type":
+        "REGULAR", "is_open_now": true}], "transactions": ["pickup", "delivery"]}'
+  recorded_at: Wed, 24 Aug 2022 17:05:39 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?%2BCafe&latitude=39.747819&limit=1&longitude=-104.994762&term=Woody%20Creek%20Bakery%20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Remaining:
+      - '4986'
+      X-Routing-Service:
+      - routing-canary--useast1-79bbb7fd6d-g5cnh; site=public_api_v3
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      Server:
+      - envoy
+      X-Zipkin-Id:
+      - cafdf20a4c8eed7c
+      X-B3-Sampled:
+      - '0'
+      Ratelimit-Dailylimit:
+      - '5000'
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-91-109-useast1aprod
+      X-Extlb:
+      - 10-65-91-109-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:39 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17861-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "e8ov3he6AHQp84ca5rqyYg", "alias": "woody-creek-bakery-and-cafe-denver-2",
+        "name": "Woody Creek Bakery & Cafe", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/gLqVAjAEY-hHVa6KsVrWaA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/woody-creek-bakery-and-cafe-denver-2?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 31, "categories": [{"alias": "tradamerican", "title": "American
+        (Traditional)"}, {"alias": "bakeries", "title": "Bakeries"}], "rating": 3.0,
+        "coordinates": {"latitude": 39.74794, "longitude": -104.99449}, "transactions":
+        ["delivery"], "price": "$", "location": {"address1": "1001 16th St", "address2":
+        "", "address3": "Ste A 130", "city": "Denver", "zip_code": "80265", "country":
+        "US", "state": "CO", "display_address": ["1001 16th St", "Ste A 130", "Denver,
+        CO 80265"]}, "phone": "+13034361192", "display_phone": "(303) 436-1192", "distance":
+        49.00979668327668}], "total": 12, "region": {"center": {"longitude": -104.994762,
+        "latitude": 39.747819}}}'
+  recorded_at: Wed, 24 Aug 2022 17:05:39 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/e8ov3he6AHQp84ca5rqyYg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-Zipkin-Id:
+      - 720e5dd7a07e0420
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-ffkvm; site=public_api_v3
+      X-B3-Sampled:
+      - '0'
+      Ratelimit-Dailylimit:
+      - '5000'
+      Ratelimit-Remaining:
+      - '4985'
+      Server:
+      - envoy
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-141-8-useast1bprod
+      X-Extlb:
+      - 10-65-141-8-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:40 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17879-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id": "e8ov3he6AHQp84ca5rqyYg", "alias": "woody-creek-bakery-and-cafe-denver-2",
+        "name": "Woody Creek Bakery & Cafe", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/gLqVAjAEY-hHVa6KsVrWaA/o.jpg",
+        "is_claimed": false, "is_closed": false, "url": "https://www.yelp.com/biz/woody-creek-bakery-and-cafe-denver-2?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=34C0zepaqieGLijQXveHVQ",
+        "phone": "+13034361192", "display_phone": "(303) 436-1192", "review_count":
+        31, "categories": [{"alias": "tradamerican", "title": "American (Traditional)"},
+        {"alias": "bakeries", "title": "Bakeries"}], "rating": 3.0, "location": {"address1":
+        "1001 16th St", "address2": "", "address3": "Ste A 130", "city": "Denver",
+        "zip_code": "80265", "country": "US", "state": "CO", "display_address": ["1001
+        16th St", "Ste A 130", "Denver, CO 80265"], "cross_streets": ""}, "coordinates":
+        {"latitude": 39.74794, "longitude": -104.99449}, "photos": ["https://s3-media4.fl.yelpcdn.com/bphoto/gLqVAjAEY-hHVa6KsVrWaA/o.jpg",
+        "https://s3-media1.fl.yelpcdn.com/bphoto/ql-fTnQ5oD_pvJtQFbxHNQ/o.jpg", "https://s3-media1.fl.yelpcdn.com/bphoto/EKhQoHd4iAoDygABft6xnw/o.jpg"],
+        "price": "$", "transactions": ["delivery"]}'
+  recorded_at: Wed, 24 Aug 2022 17:05:40 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?latitude=39.74794&limit=1&longitude=-104.9945&term=Caribou%20Coffee
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Server:
+      - envoy
+      Ratelimit-Remaining:
+      - '4984'
+      X-B3-Sampled:
+      - '0'
+      X-Zipkin-Id:
+      - f5f8b5eba9223a32
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-4bbxb; site=public_api_v3
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      Ratelimit-Dailylimit:
+      - '5000'
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-85-173-useast1aprod
+      X-Extlb:
+      - 10-65-85-173-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:40 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17846-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "D4LJXk576A8pky3_sTZPxA", "alias": "caribou-coffee-denver-9",
+        "name": "Caribou Coffee", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/gnMPlbH8060p2to528XrNQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/caribou-coffee-denver-9?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 82, "categories": [{"alias": "coffee", "title": "Coffee &
+        Tea"}], "rating": 4.0, "coordinates": {"latitude": 39.7470163906843, "longitude":
+        -104.994661199375}, "transactions": ["delivery"], "price": "$$", "location":
+        {"address1": "951 16th Street Mall", "address2": "", "address3": "", "city":
+        "Denver", "zip_code": "80202", "country": "US", "state": "CO", "display_address":
+        ["951 16th Street Mall", "Denver, CO 80202"]}, "phone": "+13038934808", "display_phone":
+        "(303) 893-4808", "distance": 103.62112578979617}], "total": 36, "region":
+        {"center": {"longitude": -104.9945, "latitude": 39.74794}}}'
+  recorded_at: Wed, 24 Aug 2022 17:05:40 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/D4LJXk576A8pky3_sTZPxA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-B3-Sampled:
+      - '0'
+      Ratelimit-Dailylimit:
+      - '5000'
+      X-Zipkin-Id:
+      - 81c16dad98f8c122
+      Ratelimit-Remaining:
+      - '4983'
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-xb2ft; site=public_api_v3
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      Server:
+      - envoy
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-103-189-useast1aprod
+      X-Extlb:
+      - 10-65-103-189-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:41 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17827-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id": "D4LJXk576A8pky3_sTZPxA", "alias": "caribou-coffee-denver-9",
+        "name": "Caribou Coffee", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/gnMPlbH8060p2to528XrNQ/o.jpg",
+        "is_claimed": true, "is_closed": false, "url": "https://www.yelp.com/biz/caribou-coffee-denver-9?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=34C0zepaqieGLijQXveHVQ",
+        "phone": "+13038934808", "display_phone": "(303) 893-4808", "review_count":
+        82, "categories": [{"alias": "coffee", "title": "Coffee & Tea"}], "rating":
+        4.0, "location": {"address1": "951 16th Street Mall", "address2": "", "address3":
+        "", "city": "Denver", "zip_code": "80202", "country": "US", "state": "CO",
+        "display_address": ["951 16th Street Mall", "Denver, CO 80202"], "cross_streets":
+        ""}, "coordinates": {"latitude": 39.7470163906843, "longitude": -104.994661199375},
+        "photos": ["https://s3-media1.fl.yelpcdn.com/bphoto/gnMPlbH8060p2to528XrNQ/o.jpg",
+        "https://s3-media1.fl.yelpcdn.com/bphoto/YGahLRZVhcI3r9N_15iTyA/o.jpg", "https://s3-media1.fl.yelpcdn.com/bphoto/PDQltZ0EYSVAOquISQNk6A/o.jpg"],
+        "price": "$$", "hours": [{"open": [{"is_overnight": false, "start": "0600",
+        "end": "1900", "day": 0}, {"is_overnight": false, "start": "0600", "end":
+        "1900", "day": 1}, {"is_overnight": false, "start": "0600", "end": "1900",
+        "day": 2}, {"is_overnight": false, "start": "0600", "end": "1900", "day":
+        3}, {"is_overnight": false, "start": "0600", "end": "2000", "day": 4}, {"is_overnight":
+        false, "start": "0600", "end": "2000", "day": 5}, {"is_overnight": false,
+        "start": "0700", "end": "1900", "day": 6}], "hours_type": "REGULAR", "is_open_now":
+        true}], "transactions": ["delivery"], "messaging": {"url": "https://www.yelp.com/raq/D4LJXk576A8pky3_sTZPxA?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=34C0zepaqieGLijQXveHVQ#popup%3Araq",
+        "use_case_text": "Message the Business"}}'
+  recorded_at: Wed, 24 Aug 2022 17:05:41 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?latitude=39.74785&limit=1&longitude=-104.993649&term=Cafe%20Options
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Server:
+      - envoy
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-Routing-Service:
+      - routing-canary--useast1-79bbb7fd6d-9x82n; site=public_api_v3
+      Ratelimit-Dailylimit:
+      - '5000'
+      X-Zipkin-Id:
+      - 8b2fd75b450a3bde
+      Ratelimit-Remaining:
+      - '4982'
+      X-B3-Sampled:
+      - '0'
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-133-10-useast1bprod
+      X-Extlb:
+      - 10-65-133-10-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:41 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17876-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "JbRT_n5cAPbIftD9SV30vA", "alias": "three-sisters-cafe-and-catering-denver-2",
+        "name": "Three Sisters Cafe & Catering", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/iEF54pS-esuAXM5Mr8x6OQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/three-sisters-cafe-and-catering-denver-2?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 155, "categories": [{"alias": "cafes", "title": "Cafes"}],
+        "rating": 4.0, "coordinates": {"latitude": 39.74703, "longitude": -104.99184},
+        "transactions": ["pickup", "delivery"], "price": "$", "location": {"address1":
+        "1717 Stout St", "address2": null, "address3": "", "city": "Denver", "zip_code":
+        "80202", "country": "US", "state": "CO", "display_address": ["1717 Stout St",
+        "Denver, CO 80202"]}, "phone": "+13039918772", "display_phone": "(303) 991-8772",
+        "distance": 190.04165763375198}], "total": 539, "region": {"center": {"longitude":
+        -104.993649, "latitude": 39.74785}}}'
+  recorded_at: Wed, 24 Aug 2022 17:05:41 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/JbRT_n5cAPbIftD9SV30vA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-B3-Sampled:
+      - '0'
+      X-Zipkin-Id:
+      - 2f127b1ebe33d5ec
+      Ratelimit-Remaining:
+      - '4981'
+      Ratelimit-Dailylimit:
+      - '5000'
+      Server:
+      - envoy
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-5t8ns; site=public_api_v3
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-85-173-useast1aprod
+      X-Extlb:
+      - 10-65-85-173-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:42 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17846-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id": "JbRT_n5cAPbIftD9SV30vA", "alias": "three-sisters-cafe-and-catering-denver-2",
+        "name": "Three Sisters Cafe & Catering", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/iEF54pS-esuAXM5Mr8x6OQ/o.jpg",
+        "is_claimed": true, "is_closed": false, "url": "https://www.yelp.com/biz/three-sisters-cafe-and-catering-denver-2?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=34C0zepaqieGLijQXveHVQ",
+        "phone": "+13039918772", "display_phone": "(303) 991-8772", "review_count":
+        155, "categories": [{"alias": "cafes", "title": "Cafes"}], "rating": 4.0,
+        "location": {"address1": "1717 Stout St", "address2": null, "address3": "",
+        "city": "Denver", "zip_code": "80202", "country": "US", "state": "CO", "display_address":
+        ["1717 Stout St", "Denver, CO 80202"], "cross_streets": ""}, "coordinates":
+        {"latitude": 39.74703, "longitude": -104.99184}, "photos": ["https://s3-media2.fl.yelpcdn.com/bphoto/iEF54pS-esuAXM5Mr8x6OQ/o.jpg",
+        "https://s3-media3.fl.yelpcdn.com/bphoto/9-uAsatMHl4-L57ZK0P5MA/o.jpg", "https://s3-media2.fl.yelpcdn.com/bphoto/DHPbSoETFgyy__OuZ5CcMw/o.jpg"],
+        "price": "$", "hours": [{"open": [{"is_overnight": false, "start": "1030",
+        "end": "1530", "day": 0}, {"is_overnight": false, "start": "1030", "end":
+        "1530", "day": 1}, {"is_overnight": false, "start": "1030", "end": "1530",
+        "day": 2}, {"is_overnight": false, "start": "1030", "end": "1530", "day":
+        3}, {"is_overnight": false, "start": "1030", "end": "1530", "day": 4}], "hours_type":
+        "REGULAR", "is_open_now": true}], "transactions": ["pickup", "delivery"]}'
+  recorded_at: Wed, 24 Aug 2022 17:05:42 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?latitude=39.747091&limit=1&longitude=-104.992704&term=Tea%20Cloud
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Remaining:
+      - '4980'
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-Zipkin-Id:
+      - decc9ef6539e0cd0
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-rrgkg; site=public_api_v3
+      X-B3-Sampled:
+      - '0'
+      Server:
+      - envoy
+      Ratelimit-Dailylimit:
+      - '5000'
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-164-1-useast1bprod
+      X-Extlb:
+      - 10-65-164-1-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:42 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17860-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "ctA9Pi64Rix4Pjcd1u3skw", "alias": "tea-cloud-denver",
+        "name": "Tea Cloud", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/xtKfpf33JXM9e43rnBaOfA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/tea-cloud-denver?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 290, "categories": [{"alias": "bubbletea", "title": "Bubble
+        Tea"}, {"alias": "tea", "title": "Tea Rooms"}, {"alias": "poke", "title":
+        "Poke"}], "rating": 4.0, "coordinates": {"latitude": 39.7473577, "longitude":
+        -104.9927711}, "transactions": ["pickup", "delivery"], "price": "$$", "location":
+        {"address1": "1690 Champa St", "address2": "", "address3": "", "city": "Denver",
+        "zip_code": "80202", "country": "US", "state": "CO", "display_address": ["1690
+        Champa St", "Denver, CO 80202"]}, "phone": "+13036275468", "display_phone":
+        "(303) 627-5468", "distance": 30.205420852314948}], "total": 28, "region":
+        {"center": {"longitude": -104.992704, "latitude": 39.747091}}}'
+  recorded_at: Wed, 24 Aug 2022 17:05:42 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/ctA9Pi64Rix4Pjcd1u3skw
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-cj9kg; site=public_api_v3
+      Server:
+      - envoy
+      X-B3-Sampled:
+      - '0'
+      Ratelimit-Dailylimit:
+      - '5000'
+      X-Zipkin-Id:
+      - 227ddb871f3f00e8
+      Ratelimit-Remaining:
+      - '4979'
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-103-189-useast1aprod
+      X-Extlb:
+      - 10-65-103-189-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:43 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17856-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id": "ctA9Pi64Rix4Pjcd1u3skw", "alias": "tea-cloud-denver", "name":
+        "Tea Cloud", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/xtKfpf33JXM9e43rnBaOfA/o.jpg",
+        "is_claimed": true, "is_closed": false, "url": "https://www.yelp.com/biz/tea-cloud-denver?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=34C0zepaqieGLijQXveHVQ",
+        "phone": "+13036275468", "display_phone": "(303) 627-5468", "review_count":
+        290, "categories": [{"alias": "bubbletea", "title": "Bubble Tea"}, {"alias":
+        "tea", "title": "Tea Rooms"}, {"alias": "poke", "title": "Poke"}], "rating":
+        4.0, "location": {"address1": "1690 Champa St", "address2": "", "address3":
+        "", "city": "Denver", "zip_code": "80202", "country": "US", "state": "CO",
+        "display_address": ["1690 Champa St", "Denver, CO 80202"], "cross_streets":
+        ""}, "coordinates": {"latitude": 39.7473577, "longitude": -104.9927711}, "photos":
+        ["https://s3-media4.fl.yelpcdn.com/bphoto/xtKfpf33JXM9e43rnBaOfA/o.jpg", "https://s3-media2.fl.yelpcdn.com/bphoto/otPNpV2K5vhSHyuJkSY1Gw/o.jpg",
+        "https://s3-media3.fl.yelpcdn.com/bphoto/C8c1tdTLtwPkOZeRIpxdmA/o.jpg"], "price":
+        "$$", "hours": [{"open": [{"is_overnight": false, "start": "1100", "end":
+        "1900", "day": 0}, {"is_overnight": false, "start": "1100", "end": "1900",
+        "day": 1}, {"is_overnight": false, "start": "1100", "end": "1900", "day":
+        2}, {"is_overnight": false, "start": "1100", "end": "1900", "day": 3}, {"is_overnight":
+        false, "start": "1100", "end": "1900", "day": 4}, {"is_overnight": false,
+        "start": "1100", "end": "1900", "day": 5}], "hours_type": "REGULAR", "is_open_now":
+        true}], "transactions": ["pickup", "delivery"]}'
+  recorded_at: Wed, 24 Aug 2022 17:05:43 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?%2BLounge&latitude=39.745175&limit=1&longitude=-104.998253&term=Limelight%20Supper%20Club%20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Dailylimit:
+      - '5000'
+      X-Zipkin-Id:
+      - 24cbac1338d9bc7f
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-B3-Sampled:
+      - '0'
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-gf4kt; site=public_api_v3
+      Ratelimit-Remaining:
+      - '4978'
+      Server:
+      - envoy
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-164-1-useast1bprod
+      X-Extlb:
+      - 10-65-164-1-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:43 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17867-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "DJxElSih4k11KB2Hnb-dVg", "alias": "the-corner-office-denver",
+        "name": "The Corner Office", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/fJnGDXrWBDlvRViP3LzunQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/the-corner-office-denver?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 947, "categories": [{"alias": "newamerican", "title": "American
+        (New)"}, {"alias": "lounges", "title": "Lounges"}], "rating": 3.5, "coordinates":
+        {"latitude": 39.74558, "longitude": -104.99718}, "transactions": ["pickup",
+        "delivery"], "price": "$$", "location": {"address1": "1401 Curtis St", "address2":
+        "", "address3": "", "city": "Denver", "zip_code": "80202", "country": "US",
+        "state": "CO", "display_address": ["1401 Curtis St", "Denver, CO 80202"]},
+        "phone": "+13038256500", "display_phone": "(303) 825-6500", "distance": 98.72721573833954}],
+        "total": 7, "region": {"center": {"longitude": -104.998253, "latitude": 39.745175}}}'
+  recorded_at: Wed, 24 Aug 2022 17:05:43 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/DJxElSih4k11KB2Hnb-dVg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-B3-Sampled:
+      - '0'
+      X-Zipkin-Id:
+      - 1ce3c61736745d3b
+      Ratelimit-Dailylimit:
+      - '5000'
+      Ratelimit-Remaining:
+      - '4977'
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      Server:
+      - envoy
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-5t8ns; site=public_api_v3
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-190-140-useast1bprod
+      X-Extlb:
+      - 10-65-190-140-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:43 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17835-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id": "DJxElSih4k11KB2Hnb-dVg", "alias": "the-corner-office-denver",
+        "name": "The Corner Office", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/fJnGDXrWBDlvRViP3LzunQ/o.jpg",
+        "is_claimed": true, "is_closed": false, "url": "https://www.yelp.com/biz/the-corner-office-denver?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=34C0zepaqieGLijQXveHVQ",
+        "phone": "+13038256500", "display_phone": "(303) 825-6500", "review_count":
+        947, "categories": [{"alias": "newamerican", "title": "American (New)"}, {"alias":
+        "lounges", "title": "Lounges"}], "rating": 3.5, "location": {"address1": "1401
+        Curtis St", "address2": "", "address3": "", "city": "Denver", "zip_code":
+        "80202", "country": "US", "state": "CO", "display_address": ["1401 Curtis
+        St", "Denver, CO 80202"], "cross_streets": ""}, "coordinates": {"latitude":
+        39.74558, "longitude": -104.99718}, "photos": ["https://s3-media2.fl.yelpcdn.com/bphoto/fJnGDXrWBDlvRViP3LzunQ/o.jpg",
+        "https://s3-media4.fl.yelpcdn.com/bphoto/xnqLKnedLeRWcuXV8sMG5g/o.jpg", "https://s3-media4.fl.yelpcdn.com/bphoto/tSjmI7jiiUQ8Vz6rgbqGoQ/o.jpg"],
+        "price": "$$", "hours": [{"open": [{"is_overnight": false, "start": "0700",
+        "end": "1400", "day": 0}, {"is_overnight": false, "start": "0700", "end":
+        "1400", "day": 1}, {"is_overnight": false, "start": "1500", "end": "2100",
+        "day": 1}, {"is_overnight": false, "start": "0700", "end": "1400", "day":
+        2}, {"is_overnight": false, "start": "1500", "end": "2100", "day": 2}, {"is_overnight":
+        false, "start": "0700", "end": "1400", "day": 3}, {"is_overnight": false,
+        "start": "1500", "end": "2100", "day": 3}, {"is_overnight": false, "start":
+        "0700", "end": "1400", "day": 4}, {"is_overnight": false, "start": "1500",
+        "end": "2200", "day": 4}, {"is_overnight": false, "start": "0900", "end":
+        "1500", "day": 5}, {"is_overnight": false, "start": "1600", "end": "2200",
+        "day": 5}, {"is_overnight": false, "start": "0900", "end": "1500", "day":
+        6}, {"is_overnight": false, "start": "1600", "end": "2100", "day": 6}], "hours_type":
+        "REGULAR", "is_open_now": true}], "transactions": ["pickup", "delivery"]}'
+  recorded_at: Wed, 24 Aug 2022 17:05:43 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?%2BCatering&latitude=39.747189&limit=1&longitude=-104.991862&term=Three%20Sister%20Cafe%20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Server:
+      - envoy
+      Ratelimit-Dailylimit:
+      - '5000'
+      Ratelimit-Remaining:
+      - '4976'
+      X-Zipkin-Id:
+      - f2aeb0446f6ca2a9
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-B3-Sampled:
+      - '0'
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-nwtq5; site=public_api_v3
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-190-140-useast1bprod
+      X-Extlb:
+      - 10-65-190-140-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:44 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17869-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "JbRT_n5cAPbIftD9SV30vA", "alias": "three-sisters-cafe-and-catering-denver-2",
+        "name": "Three Sisters Cafe & Catering", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/iEF54pS-esuAXM5Mr8x6OQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/three-sisters-cafe-and-catering-denver-2?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 155, "categories": [{"alias": "cafes", "title": "Cafes"}],
+        "rating": 4.0, "coordinates": {"latitude": 39.74703, "longitude": -104.99184},
+        "transactions": ["pickup", "delivery"], "price": "$", "location": {"address1":
+        "1717 Stout St", "address2": null, "address3": "", "city": "Denver", "zip_code":
+        "80202", "country": "US", "state": "CO", "display_address": ["1717 Stout St",
+        "Denver, CO 80202"]}, "phone": "+13039918772", "display_phone": "(303) 991-8772",
+        "distance": 21.010714459985962}], "total": 49, "region": {"center": {"longitude":
+        -104.991862, "latitude": 39.747189}}}'
+  recorded_at: Wed, 24 Aug 2022 17:05:44 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/JbRT_n5cAPbIftD9SV30vA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-B3-Sampled:
+      - '0'
+      Server:
+      - envoy
+      X-Routing-Service:
+      - routing-canary--useast1-79bbb7fd6d-9x82n; site=public_api_v3
+      X-Zipkin-Id:
+      - d614bce658f0d227
+      Ratelimit-Dailylimit:
+      - '5000'
+      Ratelimit-Remaining:
+      - '4975'
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-141-8-useast1bprod
+      X-Extlb:
+      - 10-65-141-8-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:44 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17852-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id": "JbRT_n5cAPbIftD9SV30vA", "alias": "three-sisters-cafe-and-catering-denver-2",
+        "name": "Three Sisters Cafe & Catering", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/iEF54pS-esuAXM5Mr8x6OQ/o.jpg",
+        "is_claimed": true, "is_closed": false, "url": "https://www.yelp.com/biz/three-sisters-cafe-and-catering-denver-2?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=34C0zepaqieGLijQXveHVQ",
+        "phone": "+13039918772", "display_phone": "(303) 991-8772", "review_count":
+        155, "categories": [{"alias": "cafes", "title": "Cafes"}], "rating": 4.0,
+        "location": {"address1": "1717 Stout St", "address2": null, "address3": "",
+        "city": "Denver", "zip_code": "80202", "country": "US", "state": "CO", "display_address":
+        ["1717 Stout St", "Denver, CO 80202"], "cross_streets": ""}, "coordinates":
+        {"latitude": 39.74703, "longitude": -104.99184}, "photos": ["https://s3-media2.fl.yelpcdn.com/bphoto/iEF54pS-esuAXM5Mr8x6OQ/o.jpg",
+        "https://s3-media3.fl.yelpcdn.com/bphoto/9-uAsatMHl4-L57ZK0P5MA/o.jpg", "https://s3-media2.fl.yelpcdn.com/bphoto/DHPbSoETFgyy__OuZ5CcMw/o.jpg"],
+        "price": "$", "hours": [{"open": [{"is_overnight": false, "start": "1030",
+        "end": "1530", "day": 0}, {"is_overnight": false, "start": "1030", "end":
+        "1530", "day": 1}, {"is_overnight": false, "start": "1030", "end": "1530",
+        "day": 2}, {"is_overnight": false, "start": "1030", "end": "1530", "day":
+        3}, {"is_overnight": false, "start": "1030", "end": "1530", "day": 4}], "hours_type":
+        "REGULAR", "is_open_now": true}], "transactions": ["pickup", "delivery"]}'
+  recorded_at: Wed, 24 Aug 2022 17:05:44 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?latitude=39.746885&limit=1&longitude=-104.991238&term=Corner%20Bakery%20Cafe
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-f7klk; site=public_api_v3
+      Ratelimit-Dailylimit:
+      - '5000'
+      Ratelimit-Remaining:
+      - '4974'
+      X-Zipkin-Id:
+      - 45706ce742885a9b
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-B3-Sampled:
+      - '0'
+      Server:
+      - envoy
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-91-109-useast1aprod
+      X-Extlb:
+      - 10-65-91-109-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:45 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17821-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "awu3BDSJKpXXzOBNGtCk_w", "alias": "corner-bakery-cafe-denver-5",
+        "name": "Corner Bakery Cafe", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/01g345_oqCCE1PsQNqAMSg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/corner-bakery-cafe-denver-5?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 24, "categories": [{"alias": "cafes", "title": "Cafes"}, {"alias":
+        "bakeries", "title": "Bakeries"}, {"alias": "tradamerican", "title": "American
+        (Traditional)"}], "rating": 3.5, "coordinates": {"latitude": 39.747078, "longitude":
+        -104.99118}, "transactions": ["pickup", "delivery"], "price": "$", "location":
+        {"address1": "717 17th St", "address2": "", "address3": "", "city": "Denver",
+        "zip_code": "80202", "country": "US", "state": "CO", "display_address": ["717
+        17th St", "Denver, CO 80202"]}, "phone": "+13032925100", "display_phone":
+        "(303) 292-5100", "distance": 22.026030245222273}], "total": 1300, "region":
+        {"center": {"longitude": -104.991238, "latitude": 39.746885}}}'
+  recorded_at: Wed, 24 Aug 2022 17:05:45 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/awu3BDSJKpXXzOBNGtCk_w
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-Zipkin-Id:
+      - 5fedb1e5a53608c9
+      X-B3-Sampled:
+      - '0'
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-zjrfk; site=public_api_v3
+      Ratelimit-Dailylimit:
+      - '5000'
+      Ratelimit-Remaining:
+      - '4973'
+      Server:
+      - envoy
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-85-173-useast1aprod
+      X-Extlb:
+      - 10-65-85-173-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:05:45 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17871-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id": "awu3BDSJKpXXzOBNGtCk_w", "alias": "corner-bakery-cafe-denver-5",
+        "name": "Corner Bakery Cafe", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/01g345_oqCCE1PsQNqAMSg/o.jpg",
+        "is_claimed": true, "is_closed": false, "url": "https://www.yelp.com/biz/corner-bakery-cafe-denver-5?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=34C0zepaqieGLijQXveHVQ",
+        "phone": "+13032925100", "display_phone": "(303) 292-5100", "review_count":
+        24, "categories": [{"alias": "cafes", "title": "Cafes"}, {"alias": "bakeries",
+        "title": "Bakeries"}, {"alias": "tradamerican", "title": "American (Traditional)"}],
+        "rating": 3.5, "location": {"address1": "717 17th St", "address2": "", "address3":
+        "", "city": "Denver", "zip_code": "80202", "country": "US", "state": "CO",
+        "display_address": ["717 17th St", "Denver, CO 80202"], "cross_streets": ""},
+        "coordinates": {"latitude": 39.747078, "longitude": -104.99118}, "photos":
+        ["https://s3-media4.fl.yelpcdn.com/bphoto/01g345_oqCCE1PsQNqAMSg/o.jpg", "https://s3-media1.fl.yelpcdn.com/bphoto/6vVWusTqsAbG0rW2rTg49A/o.jpg",
+        "https://s3-media3.fl.yelpcdn.com/bphoto/In2unNOyDzfvPQKs__ovtw/o.jpg"], "price":
+        "$", "hours": [{"open": [{"is_overnight": false, "start": "0700", "end": "1500",
+        "day": 0}, {"is_overnight": false, "start": "0700", "end": "1500", "day":
+        1}, {"is_overnight": false, "start": "0700", "end": "1500", "day": 2}, {"is_overnight":
+        false, "start": "0700", "end": "1500", "day": 3}, {"is_overnight": false,
+        "start": "0700", "end": "1500", "day": 4}], "hours_type": "REGULAR", "is_open_now":
+        true}], "transactions": ["pickup", "delivery"], "messaging": {"url": "https://www.yelp.com/raq/awu3BDSJKpXXzOBNGtCk_w?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=34C0zepaqieGLijQXveHVQ#popup%3Araq",
+        "use_case_text": "Message the Business"}}'
+  recorded_at: Wed, 24 Aug 2022 17:05:45 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?format=json&q=1583%20Newton%20St%20Denver%20CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 24 Aug 2022 17:24:24 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOjIyNTI4ODIwOSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJ3YXkiLCJvc21faWQiOjU3MDQxNTU1MiwiYm91bmRpbmdib3giOlsiMzkuNzQyMzM3IiwiMzkuNzQyNDE1NyIsIi0xMDUuMDM3MzYwNiIsIi0xMDUuMDM3MTY1OSJdLCJsYXQiOiIzOS43NDIzNzUxNSIsImxvbiI6Ii0xMDUuMDM3MjYzMjUxNzIxOTQiLCJkaXNwbGF5X25hbWUiOiIxNTgzLCBOZXd0b24gU3RyZWV0LCBXZXN0IENvbGZheCwgRGVudmVyLCBDb2xvcmFkbywgODAyMDQsIFVuaXRlZCBTdGF0ZXMiLCJjbGFzcyI6ImJ1aWxkaW5nIiwidHlwZSI6ImhvdXNlIiwiaW1wb3J0YW5jZSI6MC41MjAwOTk5OTk5OTk5OTk5fSx7InBsYWNlX2lkIjozMTU5NDA2OTUsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoid2F5Iiwib3NtX2lkIjo2MjkyNjk3ODMsImJvdW5kaW5nYm94IjpbIjM5Ljc0MjI0MzY2NjY2NyIsIjM5Ljc0MjM0MzY2NjY2NyIsIi0xMDUuMDM3MTQ1MzMzMzMiLCItMTA1LjAzNzA0NTMzMzMzIl0sImxhdCI6IjM5Ljc0MjI5MzY2NjY2NjY3IiwibG9uIjoiLTEwNS4wMzcwOTUzMzMzMzMzMyIsImRpc3BsYXlfbmFtZSI6IjE1ODMsIE5ld3RvbiBTdHJlZXQsIFdlc3QgQ29sZmF4LCBEZW52ZXIsIENvbG9yYWRvLCA4MDIwNCwgVW5pdGVkIFN0YXRlcyIsImNsYXNzIjoicGxhY2UiLCJ0eXBlIjoiaG91c2UiLCJpbXBvcnRhbmNlIjotMC42M31d
+  recorded_at: Wed, 24 Aug 2022 17:24:24 GMT
+- request:
+    method: get
+    uri: https://nominatim.openstreetmap.org/search?format=json&q=2300%20Steele%20St%20Denver%20CO
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 24 Aug 2022 17:24:25 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3sicGxhY2VfaWQiOjI5OTgwODkyMCwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJyZWxhdGlvbiIsIm9zbV9pZCI6MTM5NDIwNTQsImJvdW5kaW5nYm94IjpbIjM5Ljc0NzUyNjYiLCIzOS43NTEwNzk1IiwiLTEwNC45NTY2MTM2IiwiLTEwNC45NDU2NjA1Il0sImxhdCI6IjM5Ljc0OTI0MjE1IiwibG9uIjoiLTEwNC45NTA0MDAyNjIxODc1IiwiZGlzcGxheV9uYW1lIjoiRGVudmVyIFpvbywgMjMwMCwgU3RlZWxlIFN0cmVldCwgQ2l0eSBQYXJrLCBEZW52ZXIsIENvbG9yYWRvLCA4MDIwNSwgVW5pdGVkIFN0YXRlcyIsImNsYXNzIjoidG91cmlzbSIsInR5cGUiOiJ6b28iLCJpbXBvcnRhbmNlIjowLjgzOTcxMTAzMzY4NDczMzUsImljb24iOiJodHRwczovL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZy91aS9tYXBpY29ucy90b3VyaXN0X3pvby5wLjIwLnBuZyJ9LHsicGxhY2VfaWQiOjU5MDQyNjQ0LCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjUzNjUxNjAyMjEsImJvdW5kaW5nYm94IjpbIjM5Ljc0OTk0NzciLCIzOS43NTAwNDc3IiwiLTEwNC45NDc5OTI4IiwiLTEwNC45NDc4OTI4Il0sImxhdCI6IjM5Ljc0OTk5NzciLCJsb24iOiItMTA0Ljk0Nzk0MjgiLCJkaXNwbGF5X25hbWUiOiJSZWQgUGFuZGEsIDIzMDAsIFN0ZWVsZSBTdHJlZXQsIENpdHkgUGFyaywgRGVudmVyLCBDb2xvcmFkbywgODAyMDUsIFVuaXRlZCBTdGF0ZXMiLCJjbGFzcyI6InRvdXJpc20iLCJ0eXBlIjoiYXR0cmFjdGlvbiIsImltcG9ydGFuY2UiOjAuNTIwMDk5OTk5OTk5OTk5OSwiaWNvbiI6Imh0dHBzOi8vbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnL3VpL21hcGljb25zL3BvaV9wb2ludF9vZl9pbnRlcmVzdC5wLjIwLnBuZyJ9LHsicGxhY2VfaWQiOjg4OTExOTUsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoibm9kZSIsIm9zbV9pZCI6OTY1MjM1NzY5LCJib3VuZGluZ2JveCI6WyIzOS43NTA0MzQzIiwiMzkuNzUwNTM0MyIsIi0xMDQuOTUyOTc4OCIsIi0xMDQuOTUyODc4OCJdLCJsYXQiOiIzOS43NTA0ODQzIiwibG9uIjoiLTEwNC45NTI5Mjg4IiwiZGlzcGxheV9uYW1lIjoiTW9ua2V5IElzbGFuZCwgMjMwMCwgU3RlZWxlIFN0cmVldCwgQ2l0eSBQYXJrLCBEZW52ZXIsIENvbG9yYWRvLCA4MDIwNSwgVW5pdGVkIFN0YXRlcyIsImNsYXNzIjoidG91cmlzbSIsInR5cGUiOiJhdHRyYWN0aW9uIiwiaW1wb3J0YW5jZSI6MC41MjAwOTk5OTk5OTk5OTk5LCJpY29uIjoiaHR0cHM6Ly9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmcvdWkvbWFwaWNvbnMvcG9pX3BvaW50X29mX2ludGVyZXN0LnAuMjAucG5nIn0seyJwbGFjZV9pZCI6MzE5MDYwNzQsImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoibm9kZSIsIm9zbV9pZCI6MjgzNjkyNDIxNCwiYm91bmRpbmdib3giOlsiMzkuNzQ5OTU4NCIsIjM5Ljc1MDA1ODQiLCItMTA0Ljk1NjQ0NzMiLCItMTA0Ljk1NjM0NzMiXSwibGF0IjoiMzkuNzUwMDA4NCIsImxvbiI6Ii0xMDQuOTU2Mzk3MyIsImRpc3BsYXlfbmFtZSI6IkNvbmdvIEJhc2luLCAyMzAwLCBTdGVlbGUgU3RyZWV0LCBDaXR5IFBhcmssIERlbnZlciwgQ29sb3JhZG8sIDgwMjA1LCBVbml0ZWQgU3RhdGVzIiwiY2xhc3MiOiJ0b3VyaXNtIiwidHlwZSI6ImF0dHJhY3Rpb24iLCJpbXBvcnRhbmNlIjowLjUyMDA5OTk5OTk5OTk5OTksImljb24iOiJodHRwczovL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZy91aS9tYXBpY29ucy9wb2lfcG9pbnRfb2ZfaW50ZXJlc3QucC4yMC5wbmcifSx7InBsYWNlX2lkIjozMTk0NzE0MSwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoyODM2OTE5MDY2LCJib3VuZGluZ2JveCI6WyIzOS43NTAzMzU5IiwiMzkuNzUwNDM1OSIsIi0xMDQuOTU1MDcxMyIsIi0xMDQuOTU0OTcxMyJdLCJsYXQiOiIzOS43NTAzODU5IiwibG9uIjoiLTEwNC45NTUwMjEzIiwiZGlzcGxheV9uYW1lIjoiUHJpbWF0ZSBQYW5vcmFtYSBGb3Jlc3QgQXZpYXJ5LCAyMzAwLCBTdGVlbGUgU3RyZWV0LCBDaXR5IFBhcmssIERlbnZlciwgQ29sb3JhZG8sIDgwMjA1LCBVbml0ZWQgU3RhdGVzIiwiY2xhc3MiOiJ0b3VyaXNtIiwidHlwZSI6ImF0dHJhY3Rpb24iLCJpbXBvcnRhbmNlIjowLjUyMDA5OTk5OTk5OTk5OTksImljb24iOiJodHRwczovL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZy91aS9tYXBpY29ucy9wb2lfcG9pbnRfb2ZfaW50ZXJlc3QucC4yMC5wbmcifSx7InBsYWNlX2lkIjozMTY5ODg4OCwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjoyODM2OTI0MjE2LCJib3VuZGluZ2JveCI6WyIzOS43NDg3NjIzIiwiMzkuNzQ4ODYyMyIsIi0xMDQuOTU0MzQ0NCIsIi0xMDQuOTU0MjQ0NCJdLCJsYXQiOiIzOS43NDg4MTIzIiwibG9uIjoiLTEwNC45NTQyOTQ0IiwiZGlzcGxheV9uYW1lIjoiTnVydHVyZSBUcmFpbCwgMjMwMCwgU3RlZWxlIFN0cmVldCwgQ2l0eSBQYXJrLCBEZW52ZXIsIENvbG9yYWRvLCA4MDIwNSwgVW5pdGVkIFN0YXRlcyIsImNsYXNzIjoidG91cmlzbSIsInR5cGUiOiJhdHRyYWN0aW9uIiwiaW1wb3J0YW5jZSI6MC41MjAwOTk5OTk5OTk5OTk5LCJpY29uIjoiaHR0cHM6Ly9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmcvdWkvbWFwaWNvbnMvcG9pX3BvaW50X29mX2ludGVyZXN0LnAuMjAucG5nIn0seyJwbGFjZV9pZCI6MzE4Mjk2NDksImxpY2VuY2UiOiJEYXRhIMKpIE9wZW5TdHJlZXRNYXAgY29udHJpYnV0b3JzLCBPRGJMIDEuMC4gaHR0cHM6Ly9vc20ub3JnL2NvcHlyaWdodCIsIm9zbV90eXBlIjoibm9kZSIsIm9zbV9pZCI6MjgzNjg4MTQ4MiwiYm91bmRpbmdib3giOlsiMzkuNzUwNTA5IiwiMzkuNzUwNjA5IiwiLTEwNC45NTM4NjE2IiwiLTEwNC45NTM3NjE2Il0sImxhdCI6IjM5Ljc1MDU1OSIsImxvbiI6Ii0xMDQuOTUzODExNiIsImRpc3BsYXlfbmFtZSI6IkJlYXIgTW91bnRhaW4sIDIzMDAsIFN0ZWVsZSBTdHJlZXQsIENpdHkgUGFyaywgRGVudmVyLCBDb2xvcmFkbywgODAyMDUsIFVuaXRlZCBTdGF0ZXMiLCJjbGFzcyI6InRvdXJpc20iLCJ0eXBlIjoiYXR0cmFjdGlvbiIsImltcG9ydGFuY2UiOjAuNTIwMDk5OTk5OTk5OTk5OSwiaWNvbiI6Imh0dHBzOi8vbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnL3VpL21hcGljb25zL3BvaV9wb2ludF9vZl9pbnRlcmVzdC5wLjIwLnBuZyJ9LHsicGxhY2VfaWQiOjMxNzE0ODc5LCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjI4MzY4ODE0MDgsImJvdW5kaW5nYm94IjpbIjM5Ljc0OTYwNTgiLCIzOS43NDk3MDU4IiwiLTEwNC45NTMzNzg4IiwiLTEwNC45NTMyNzg4Il0sImxhdCI6IjM5Ljc0OTY1NTgiLCJsb24iOiItMTA0Ljk1MzMyODgiLCJkaXNwbGF5X25hbWUiOiJXb29kbGFuZCBHYXJkZW4sIDIzMDAsIFN0ZWVsZSBTdHJlZXQsIENpdHkgUGFyaywgRGVudmVyLCBDb2xvcmFkbywgODAyMDUsIFVuaXRlZCBTdGF0ZXMiLCJjbGFzcyI6InRvdXJpc20iLCJ0eXBlIjoiYXR0cmFjdGlvbiIsImltcG9ydGFuY2UiOjAuNTIwMDk5OTk5OTk5OTk5OSwiaWNvbiI6Imh0dHBzOi8vbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnL3VpL21hcGljb25zL3BvaV9wb2ludF9vZl9pbnRlcmVzdC5wLjIwLnBuZyJ9LHsicGxhY2VfaWQiOjMxNjcwMzU3LCJsaWNlbmNlIjoiRGF0YSDCqSBPcGVuU3RyZWV0TWFwIGNvbnRyaWJ1dG9ycywgT0RiTCAxLjAuIGh0dHBzOi8vb3NtLm9yZy9jb3B5cmlnaHQiLCJvc21fdHlwZSI6Im5vZGUiLCJvc21faWQiOjI4MzY5NzY3MDQsImJvdW5kaW5nYm94IjpbIjM5Ljc0ODUxNjkiLCIzOS43NDg2MTY5IiwiLTEwNC45NTAwMTUzIiwiLTEwNC45NDk5MTUzIl0sImxhdCI6IjM5Ljc0ODU2NjkiLCJsb24iOiItMTA0Ljk0OTk2NTMiLCJkaXNwbGF5X25hbWUiOiJUb3lvdGEgRWxlcGhhbnQgUGFzc2FnZSwgMjMwMCwgU3RlZWxlIFN0cmVldCwgQ2l0eSBQYXJrLCBEZW52ZXIsIENvbG9yYWRvLCA4MDIwNSwgVW5pdGVkIFN0YXRlcyIsImNsYXNzIjoidG91cmlzbSIsInR5cGUiOiJhdHRyYWN0aW9uIiwiaW1wb3J0YW5jZSI6MC41MjAwOTk5OTk5OTk5OTk5LCJpY29uIjoiaHR0cHM6Ly9ub21pbmF0aW0ub3BlbnN0cmVldG1hcC5vcmcvdWkvbWFwaWNvbnMvcG9pX3BvaW50X29mX2ludGVyZXN0LnAuMjAucG5nIn0seyJwbGFjZV9pZCI6ODgzODM0OCwibGljZW5jZSI6IkRhdGEgwqkgT3BlblN0cmVldE1hcCBjb250cmlidXRvcnMsIE9EYkwgMS4wLiBodHRwczovL29zbS5vcmcvY29weXJpZ2h0Iiwib3NtX3R5cGUiOiJub2RlIiwib3NtX2lkIjo5NjUyMjc3MjgsImJvdW5kaW5nYm94IjpbIjM5Ljc0OTI3NDQiLCIzOS43NDkzNzQ0IiwiLTEwNC45NTI2NTQ0IiwiLTEwNC45NTI1NTQ0Il0sImxhdCI6IjM5Ljc0OTMyNDQiLCJsb24iOiItMTA0Ljk1MjYwNDQiLCJkaXNwbGF5X25hbWUiOiJBZnJpY2FuIFBlbmd1aW4sIDIzMDAsIFN0ZWVsZSBTdHJlZXQsIENpdHkgUGFyaywgRGVudmVyLCBDb2xvcmFkbywgODAyMDUsIFVuaXRlZCBTdGF0ZXMiLCJjbGFzcyI6InRvdXJpc20iLCJ0eXBlIjoiYXR0cmFjdGlvbiIsImltcG9ydGFuY2UiOjAuNTIwMDk5OTk5OTk5OTk5OSwiaWNvbiI6Imh0dHBzOi8vbm9taW5hdGltLm9wZW5zdHJlZXRtYXAub3JnL3VpL21hcGljb25zL3BvaV9wb2ludF9vZl9pbnRlcmVzdC5wLjIwLnBuZyJ9XQ==
+  recorded_at: Wed, 24 Aug 2022 17:24:25 GMT
+- request:
+    method: get
+    uri: https://www.mapquestapi.com/search/v4/place?feedback=false&key=zlaZeUWUwDjy5iwTqIH9n1ljM0ZSGs7o&location=-104.99383175695472,39.74580865&q=cafe&sort=distance
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 24 Aug 2022 17:24:25 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '4196'
+      Server:
+      - nginx
+      Vary:
+      - User-Agent
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - OPTIONS,GET,POST
+      Status:
+      - success
+      Transactionweight:
+      - '1'
+      Strict-Transport-Security:
+      - max-age=0
+    body:
+      encoding: UTF-8
+      string: '{"pagination":{"nextUrl":"https://www.mapquestapi.com/search/v4/place?q=cafe&location=-104.99383175695472,39.74580865&sort=distance&pageSize=10&page=2&key=zlaZeUWUwDjy5iwTqIH9n1ljM0ZSGs7o","currentPage":1},"request":{"sort":"distance","pageSize":10,"page":1,"feedback":false,"key":"zlaZeUWUwDjy5iwTqIH9n1ljM0ZSGs7o","q":"cafe","location":[-104.99383175695472,39.74580865]},"results":[{"id":"mqId:415209654","displayString":"Cafe
+        Berlin, 1600 Champa St, Denver, CO 80202","name":"Cafe Berlin","slug":"/us/colorado/cafe-berlin-415209654","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.993865,39.74634],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80202","countryCode":"US","street":"1600
+        Champa St","type":"address"}}},{"id":"mqId:272653899","displayString":"Tuscany
+        Coffee & Deli, 1600 Stout St, Denver, CO 80202","name":"Tuscany Coffee & Deli","slug":"/us/colorado/tuscany-coffee-and-deli-272653899","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.992566,39.745828],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80202","county":"Denver","countryCode":"US","street":"1600
+        Stout St","type":"address"}}},{"id":"mqId:272919332","displayString":"Woody
+        Creek Bakery & Cafe, 1001 16th St, Denver, CO 80265","name":"Woody Creek Bakery
+        & Cafe","slug":"/us/colorado/woody-creek-bakery-and-cafe-272919332","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.994762,39.747819],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80265","county":"Denver","countryCode":"US","street":"1001
+        16th St","type":"address"}}},{"id":"mqId:369534093","displayString":"Caribou
+        Coffee, 1001 16th St, Denver, CO 80265","name":"Caribou Coffee","slug":"/us/colorado/caribou-coffee-369534093","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.9945,39.74794],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80265","county":"Denver","countryCode":"US","street":"1001
+        16th St","type":"address"}}},{"id":"mqId:345517893","displayString":"Tea Cloud,
+        1690 Champa St, Denver, CO 80202","name":"Tea Cloud","slug":"/us/colorado/tea-cloud-345517893","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.992704,39.747091],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80202","county":"Denver","countryCode":"US","street":"1690
+        Champa St","type":"address"}}},{"id":"mqId:412062211","displayString":"Cafe
+        Options, 1650 Curtis St, Denver, CO 80202","name":"Cafe Options","slug":"/us/colorado/cafe-options-412062211","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.993649,39.74785],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80202","countryCode":"US","street":"1650
+        Curtis St","type":"address"}}},{"id":"mqId:359835693","displayString":"Corner
+        Bakery Cafe, 717 17th St, Denver, CO 80202","name":"Corner Bakery Cafe","slug":"/us/colorado/corner-bakery-cafe-359835693","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.991238,39.746885],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80202","county":"Denver","countryCode":"US","street":"717
+        17th St","type":"address"}}},{"id":"mqId:291753253","displayString":"Three
+        Sister Cafe & Catering, 1717 Stout St, Denver, CO 80202","name":"Three Sister
+        Cafe & Catering","slug":"/us/colorado/three-sister-cafe-and-catering-291753253","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.991862,39.747189],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80202","county":"Denver","countryCode":"US","street":"1717
+        Stout St","type":"address"}}},{"id":"mqId:272729178","displayString":"Corner
+        Bakery Cafe, 500 16th St, Denver, CO 80202","name":"Corner Bakery Cafe","slug":"/us/colorado/corner-bakery-cafe-272729178","language":"en","place":{"type":"Feature","geometry":{"coordinates":[-104.990165,39.743259],"type":"Point"},"properties":{"city":"Denver","stateCode":"CO","postalCode":"80202","county":"Denver","countryCode":"US","street":"500
+        16th St","type":"address"}}}]}'
+  recorded_at: Wed, 24 Aug 2022 17:24:25 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?latitude=39.743259&limit=1&longitude=-104.990165&term=Corner%20Bakery%20Cafe
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Dailylimit:
+      - '5000'
+      X-B3-Sampled:
+      - '0'
+      X-Zipkin-Id:
+      - 0b86b82ef510e186
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-ffkvm; site=public_api_v3
+      Ratelimit-Remaining:
+      - '4957'
+      Server:
+      - envoy
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-91-109-useast1aprod
+      X-Extlb:
+      - 10-65-91-109-useast1aprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:24:26 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17880-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "piisPc4ODewWPvCHdR08iw", "alias": "corner-bakery-cafe-denver",
+        "name": "Corner Bakery Cafe", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ME6E8LFJAhZHOL5CLsm2Wg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/corner-bakery-cafe-denver?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=34C0zepaqieGLijQXveHVQ",
+        "review_count": 170, "categories": [{"alias": "sandwiches", "title": "Sandwiches"},
+        {"alias": "cafes", "title": "Cafes"}, {"alias": "breakfast_brunch", "title":
+        "Breakfast & Brunch"}], "rating": 3.5, "coordinates": {"latitude": 39.743297,
+        "longitude": -104.990059}, "transactions": ["pickup", "delivery"], "price":
+        "$", "location": {"address1": "500 16th St Mall", "address2": null, "address3":
+        "", "city": "Denver", "zip_code": "80202", "country": "US", "state": "CO",
+        "display_address": ["500 16th St Mall", "Denver, CO 80202"]}, "phone": "+13035720166",
+        "display_phone": "(303) 572-0166", "distance": 9.999557255141367}], "total":
+        1300, "region": {"center": {"longitude": -104.990165, "latitude": 39.743259}}}'
+  recorded_at: Wed, 24 Aug 2022 17:24:26 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/piisPc4ODewWPvCHdR08iw
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer yHNb6Kv_cFPbndvJzOnKVu18JiMhmWt_OlzlERs31K7FXxtqBUU3RVs5XkReigJVo6MkfEnp3ry73ioW2VSgMyelZ1T5p16cjyErW7H0U5xvLeXEl90ImwTpZPYEY3Yx
+      User-Agent:
+      - Faraday v2.3.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Ratelimit-Dailylimit:
+      - '5000'
+      X-B3-Sampled:
+      - '0'
+      Ratelimit-Remaining:
+      - '4956'
+      Ratelimit-Resettime:
+      - '2022-08-25T00:00:00+00:00'
+      Server:
+      - envoy
+      X-Routing-Service:
+      - routing-main--useast1-54445cf4f-qw9nh; site=public_api_v3
+      X-Zipkin-Id:
+      - 1cf6d3935092a089
+      X-Cloudmap:
+      - routing_useast1
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-65-190-140-useast1bprod
+      X-Extlb:
+      - 10-65-190-140-useast1bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 24 Aug 2022 17:24:27 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdk17834-PDK
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id": "piisPc4ODewWPvCHdR08iw", "alias": "corner-bakery-cafe-denver",
+        "name": "Corner Bakery Cafe", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ME6E8LFJAhZHOL5CLsm2Wg/o.jpg",
+        "is_claimed": true, "is_closed": false, "url": "https://www.yelp.com/biz/corner-bakery-cafe-denver?adjust_creative=34C0zepaqieGLijQXveHVQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_lookup&utm_source=34C0zepaqieGLijQXveHVQ",
+        "phone": "+13035720166", "display_phone": "(303) 572-0166", "review_count":
+        170, "categories": [{"alias": "sandwiches", "title": "Sandwiches"}, {"alias":
+        "cafes", "title": "Cafes"}, {"alias": "breakfast_brunch", "title": "Breakfast
+        & Brunch"}], "rating": 3.5, "location": {"address1": "500 16th St Mall", "address2":
+        null, "address3": "", "city": "Denver", "zip_code": "80202", "country": "US",
+        "state": "CO", "display_address": ["500 16th St Mall", "Denver, CO 80202"],
+        "cross_streets": ""}, "coordinates": {"latitude": 39.743297, "longitude":
+        -104.990059}, "photos": ["https://s3-media2.fl.yelpcdn.com/bphoto/ME6E8LFJAhZHOL5CLsm2Wg/o.jpg",
+        "https://s3-media1.fl.yelpcdn.com/bphoto/5c4Door1BY-nYrIu79G35w/o.jpg", "https://s3-media1.fl.yelpcdn.com/bphoto/eBnhIaFfG9YAHiS-JBDqOQ/o.jpg"],
+        "price": "$", "hours": [{"open": [{"is_overnight": false, "start": "0700",
+        "end": "1500", "day": 0}, {"is_overnight": false, "start": "0700", "end":
+        "1500", "day": 1}, {"is_overnight": false, "start": "0700", "end": "1500",
+        "day": 2}, {"is_overnight": false, "start": "0700", "end": "1500", "day":
+        3}, {"is_overnight": false, "start": "0700", "end": "1500", "day": 4}, {"is_overnight":
+        false, "start": "0800", "end": "1400", "day": 5}, {"is_overnight": false,
+        "start": "0800", "end": "1400", "day": 6}], "hours_type": "REGULAR", "is_open_now":
+        true}], "transactions": ["delivery", "pickup"]}'
+  recorded_at: Wed, 24 Aug 2022 17:24:27 GMT
 recorded_with: VCR 6.1.0

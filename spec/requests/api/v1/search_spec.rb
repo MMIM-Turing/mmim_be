@@ -5,14 +5,15 @@ RSpec.describe 'The search API' do
 #  VCR.insert_cassette('translates_a_street')
 #end
   it 'midpoints search', :vcr do
-    VCR.insert_cassette('The_search_API/midpoints_search', :record => :new_episodes)
-    allow(MidpointFacade).to receive(:find_midpoint).and_return("-104.99464955%2C39.74574405")
+    # VCR.insert_cassette('The_search_API/midpoints_search', :record => :new_episodes)
+    # allow(MidpointFacade).to receive(:find_midpoint).and_return("-104.99464955%2C39.74574405")
     params = {
       address_1: '1583 Newton St Denver CO',
       address_2: '2300 Steele St Denver CO',
       category: 'cafe'
     }.to_json
     get "/api/v1/search", params: { params: params }
+    binding.pry
 
     expect(response).to be_successful
     locations = JSON.parse(response.body, symbolize_names: true)[:data]

@@ -11,9 +11,8 @@ class LocationFacade
       term = location_result[:name]
       yelp_id = service.get_yelp_id(lat, lon, term)
       yelp_data = service.get_yelp_data(yelp_id)
-      LocationResponse.new(location_result, yelp_data)
+      LocationResponse.new(yelp_data)
     end
-    binding.pry
   end
 end
 
